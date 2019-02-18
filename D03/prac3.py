@@ -14,8 +14,8 @@ for i in range(5):
 
 print(Data)
 
-dy = [0, 1, 0, -1]
-dx = [1, 0, -1, 0]
+dy = [1, 0, -1, 0]
+dx = [0, 1, 0, -1]
 
 result=[[0 for x in range(5)] for y in range(5)]
 
@@ -44,12 +44,7 @@ for i in range(25):
         now_x=now_x+dx[dir]
         now_y=now_y+dy[dir]
 
-print(result)
-
-
-
-
-
-# for dir in range(4):
-#     newY = y + dy[dir]
-#     newX = x + dx[dir]
+for i in result:
+    for j in i:
+        print(j,end=' ')
+    print()
