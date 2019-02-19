@@ -1,0 +1,267 @@
+1. snail
+# 달팽이
+import sys
+
+sys.stdin=open('prac3.txt','r')
+
+def IsSafe(x,y):
+    if x>=0 and x<5 and y>=0 and y<5: return True
+    else:
+        return False
+
+Data = [[0 for x in range(5)] for y in range(5)]
+
+for i in range(5):
+    Data[i] = list(map(int,input().split()))
+
+print(Data)
+
+dy = [1, 0, -1, 0]
+dx = [0, 1, 0, -1]
+
+result=[[0 for x in range(5)] for y in range(5)]
+
+now_x=0
+now_y=0
+dir=0
+
+for i in range(25):
+    min_value = 987654321
+    min_x=0
+    min_y=0
+    for x in range(5):
+        for y in range(5):
+            if Data[x][y]<min_value:
+                min_value=Data[x][y]
+                min_x=x
+                min_y=y
+    result[now_x][now_y]=Data[min_x][min_y]
+    Data[min_x][min_y]=987654321
+
+    if IsSafe(now_x+dx[dir],now_y+dy[dir]) and result[now_x+dx[dir]][now_y+dy[dir]]==0:
+        now_x=now_x+dx[dir]
+        now_y=now_y+dy[dir]
+    else:
+        dir= (dir+1) % 4
+        now_x=now_x+dx[dir]
+        now_y=now_y+dy[dir]
+
+for i in result:
+    for j in i:
+        print(j,end=' ')
+    print()
+
+2. 색칠하기
+# 색칠하기
+import sys
+
+sys.stdin=open('4836.txt','r')
+
+T=int(input())
+
+for tc in range(1,T+1):
+    N=int(input())
+    data=[]
+    for i in range(N):
+        data.append(list(map(int,input().split())))
+
+    red=[]
+    blue=[]
+    purple=[]
+    for square in data:
+        if square[4]==1:
+            red.append(square)
+        else:
+            blue.append(square)
+    # print(red)
+    # print(blue)
+
+    cnt=0
+    for i in range(len(red)):
+        for j in range(len(blue)):
+            row_cnt = 0
+            col_cnt = 0
+            for red_row in range(red[i][0],red[i][2]+1):
+                for blue_row in range(blue[j][0],blue[j][2]+1):
+                    if red_row==blue_row:
+                        row_cnt+=1
+            for red_col in range(red[i][1],red[i][3]+1):
+                    for blue_col in range(blue[j][1],blue[j][3]+1):
+                        if red_col==blue_col:
+                            col_cnt+=1
+            cnt+=row_cnt * col_cnt
+
+    print(f'#{tc} {cnt}')
+
+3. 부분집합
+import sys
+
+sys.stdin=open('4837.txt','r')
+
+T=int(input())
+for tc in range(1,T+1):
+    n,k=map(int,input().split())
+    data=[1,2,3,4,5,6,7,8,9,10,11,12]
+    cnt=0
+    for i in range(1 << 12):
+        s = []
+        for j in range(13):
+            if i & (1 << j):
+                s.append(data[j])
+        # print(s)
+        if len(s)==n and sum(s)==k:
+            cnt+=1
+    print(f'#{tc} {cnt}')
+
+4. 이진검색
+# 이진탐색 대결
+import sys
+
+sys.stdin=open('4839.txt','r')
+
+T=int(input())
+for tc in range(1,T+1):
+    data=list(map(int,input().split()))
+
+    a_page = data[1]
+    l = 1
+    r = data[0]
+    m=int((l + r) / 2)
+    a_cnt = 1
+    while m!=a_page:
+        if m==l or m==r:
+            break
+        else:
+            if m<a_page:
+                l=m
+                m=int((l + r) / 2)
+            else:
+                r=m
+                m = int((l + r) / 2)
+            a_cnt+=1
+
+    b_page = data[2]
+    l = 1
+    r = data[0]
+    m = int((l + r) / 2)
+    b_cnt = 1
+    while m != b_page:
+        if m == l or m == r:
+            break
+        else:
+            if m < b_page:
+                l = m
+                m = int((l + r) / 2)
+            else:
+                r = m
+                m = int((l + r) / 2)
+            b_cnt += 1
+
+    if a_cnt>b_cnt:
+        print(f'#{tc} B')
+    elif a_cnt==b_cnt:
+        print(f'#{tc} 0')
+    else:
+        print(f'#{tc} A')
+
+5. 특별한 정렬
+# 특별한 정렬
+import sys
+
+sys.stdin=open('4843.txt','r')
+
+T=int(input())
+for tc in range(1,T+1):
+    n=int(input())
+    data=list(map(int,input().split()))
+
+    # 9
+    # 1 2 3 4 5 6 7 8 9
+    # 10
+    # 1 2 3 4 5 6 7 8 9 10
+    # 최대, 최소 두개씩 넣기 위해서 반복 횟수
+    if n%2==0:
+        N=n//2
+    else:
+        N=n//2+1
+
+    new_list = []
+    for i in range(N):
+        min_value=987654321
+        max_value=0
+        for i in range(len(data)):
+            if data[i] != None:
+                if data[i]>max_value:
+                    max_value=data[i]
+                    max_index=i
+        for i in range(len(data)):
+            if data[i] != None:
+                if data[i]<min_value:
+                    min_value=data[i]
+                    min_index = i
+        if max_value==min_value:
+            new_list.append(min_value)
+        else:
+            new_list.append(max_value)
+            new_list.append(min_value)
+
+        data[max_index] = None
+        data[min_index] =None
+
+    print(f'#{tc}', end=' ')
+    for i in new_list[:10]:
+        print(i, end=' ')
+    print()
+
+6. 금속막대
+# 나사
+import sys
+
+sys.stdin=open('metal.txt','r')
+
+T=int(input())
+for tc in range(1,T+1):
+    n=int(input())
+    data=list(map(int,input().split()))
+    len(data)
+
+    l=[]
+    index=0
+    for i in range(len(data)//2):
+        bolt = []
+        bolt.append(data[index])
+        bolt.append(data[index+1])
+        l.append(bolt)
+        index+=2
+
+    for n in range(len(l)):
+        for key in range(len(l)):
+            cnt = 0
+            for i in range(len(l)):
+                if key == i:
+                    continue
+                else:
+                    if l[key][1] == l[i][0]:
+                        if i < key:
+                            temp = l[key]
+                            for j in range(key - 1, -1, -1):
+                                l[j + 1] = l[j]
+                            l[0] = temp
+                        else:
+                            next = l[i]
+                            l[i] = l[key + 1]
+                            l[key + 1] = next
+                        cnt = 1
+            if cnt == 0:
+                stop_index = key
+                # key+1개
+                for k in range(key + 1):
+                    l.append(l[0])
+                    l.remove(l[0])
+                break
+
+    print(f'#{tc}',end=' ')
+    for i in l:
+        for j in i:
+            print(j,end=' ')
+    print()

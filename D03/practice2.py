@@ -1,3 +1,4 @@
+# 부분집합
 import sys
 
 sys.stdin = open('prac2_input.txt', 'r')
