@@ -1,6 +1,6 @@
 # ladder 재귀
 import sys
-sys.stdin=open('ladder.txt','r')
+sys.stdin=open('test.txt','r')
 l=[]
 for i in range(10):
     l.append(list(map(int,input().split())))
@@ -34,10 +34,10 @@ def Ladder(up,here):
                 here=r_here-1
                 up=r_next
                 Ladder(up,here)
-    print(up)
-    print(here)
+    return(up,here)
 
-Ladder(9,6)
+up, here=Ladder(9,6)
+print(here)
 
 
 
