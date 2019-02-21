@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1d80c26-ae39-48a6-b911-4255eee5302d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/D05/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D06/4866.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D06/4866.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D06/4869.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D06/4869.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D06/4871.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D06/4871.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D06/4873.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D06/4873.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D06/calc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D06/dfs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D06/dfs.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D06/작업순서.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D06/작업순서.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/pycharm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pycharm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/D05/dfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/D05/dfs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/D05/ladder1.py" beforeDir="false" afterPath="$PROJECT_DIR$/D05/ladder1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D06/4869.py" beforeDir="false" afterPath="$PROJECT_DIR$/D06/4869.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D06/작업순서.py" beforeDir="false" afterPath="$PROJECT_DIR$/D06/작업순서.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,46 +15,64 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/algorithm$4839.coverage" NAME="4839 Coverage Results" MODIFIED="1550541246223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D04" />
-    <SUITE FILE_PATH="coverage/pycharm$next_permutation.coverage" NAME="next_permutation Coverage Results" MODIFIED="1550128903086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/algorithm$4836.coverage" NAME="4836 Coverage Results" MODIFIED="1550546365569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D04" />
-    <SUITE FILE_PATH="coverage/algorithm$4871.coverage" NAME="4871 Coverage Results" MODIFIED="1550726622858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D06" />
-    <SUITE FILE_PATH="coverage/pycharm$Gravity.coverage" NAME="Gravity Coverage Results" MODIFIED="1550120415977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/algorithm$metal.coverage" NAME="metal Coverage Results" MODIFIED="1550564554154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D04" />
-    <SUITE FILE_PATH="coverage/pycharm$Flatten.coverage" NAME="Flatten Coverage Results" MODIFIED="1550208132927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/algorithm$dfs.coverage" NAME="dfs Coverage Results" MODIFIED="1550738242293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D06" />
-    <SUITE FILE_PATH="coverage/pycharm$4831.coverage" NAME="4831 Coverage Results" MODIFIED="1550211336219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/algorithm$4866.coverage" NAME="4866 Coverage Results" MODIFIED="1550717667289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D06" />
-    <SUITE FILE_PATH="coverage/algorithm$4869.coverage" NAME="4869 Coverage Results" MODIFIED="1550727451917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D06" />
-    <SUITE FILE_PATH="coverage/algorithm$sum.coverage" NAME="sum Coverage Results" MODIFIED="1550475394979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D03" />
-    <SUITE FILE_PATH="coverage/pycharm$4834.coverage" NAME="4834 Coverage Results" MODIFIED="1550197077232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/algorithm$stair.coverage" NAME="stair Coverage Results" MODIFIED="1550642094713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D05" />
-    <SUITE FILE_PATH="coverage/algorithm$4873.coverage" NAME="4873 Coverage Results" MODIFIED="1550727325576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D06" />
-    <SUITE FILE_PATH="coverage/pycharm$baby_gin.coverage" NAME="baby_gin Coverage Results" MODIFIED="1550134439611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/algorithm$4843.coverage" NAME="4843 Coverage Results" MODIFIED="1550556129826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D04" />
-    <SUITE FILE_PATH="coverage/algorithm$ladder1.coverage" NAME="ladder1 Coverage Results" MODIFIED="1550710123791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D05" />
-    <SUITE FILE_PATH="coverage/pycharm$day01.coverage" NAME="day01 Coverage Results" MODIFIED="1550110428343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pycharm$4828.coverage" NAME="4828 Coverage Results" MODIFIED="1550195825843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/algorithm$4837.coverage" NAME="4837 Coverage Results" MODIFIED="1550538874761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D04" />
-    <SUITE FILE_PATH="coverage/algorithm$seq_nonorder.coverage" NAME="seq_nonorder Coverage Results" MODIFIED="1550471075218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D03" />
-    <SUITE FILE_PATH="coverage/pycharm$counting_sort.coverage" NAME="counting_sort Coverage Results" MODIFIED="1550133507258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/algorithm$seq_order.coverage" NAME="seq_order Coverage Results" MODIFIED="1550471418715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D03" />
-    <SUITE FILE_PATH="coverage/algorithm$.coverage" NAME="작업순서 Coverage Results" MODIFIED="1550738674769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D06" />
-    <SUITE FILE_PATH="coverage/algorithm$practice1.coverage" NAME="practice1 Coverage Results" MODIFIED="1550476227621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D03" />
-    <SUITE FILE_PATH="coverage/pycharm$.coverage" NAME="구간합 Coverage Results" MODIFIED="1550199834267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/algorithm$practice2.coverage" NAME="practice2 Coverage Results" MODIFIED="1550470061289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D03" />
-    <SUITE FILE_PATH="coverage/algorithm$prac3.coverage" NAME="prac3 Coverage Results" MODIFIED="1550479879560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D03" />
+    <SUITE FILE_PATH="coverage/algorithm$4873.coverage" NAME="4873 Coverage Results" MODIFIED="1550727325576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D06" />
+    <SUITE FILE_PATH="coverage/algorithm$metal.coverage" NAME="metal Coverage Results" MODIFIED="1550564554154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D04" />
+    <SUITE FILE_PATH="coverage/pycharm$counting_sort.coverage" NAME="counting_sort Coverage Results" MODIFIED="1550133507258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/algorithm$1.coverage" NAME="연습1 Coverage Results" MODIFIED="1550624496679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D05" />
+    <SUITE FILE_PATH="coverage/pycharm$baby_gin.coverage" NAME="baby_gin Coverage Results" MODIFIED="1550134439611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/algorithm$ladder1.coverage" NAME="ladder1 Coverage Results" MODIFIED="1550710123791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D05" />
+    <SUITE FILE_PATH="coverage/pycharm$.coverage" NAME="구간합 Coverage Results" MODIFIED="1550199834267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pycharm$Flatten.coverage" NAME="Flatten Coverage Results" MODIFIED="1550208132927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/algorithm$practice1.coverage" NAME="practice1 Coverage Results" MODIFIED="1550476227621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D03" />
+    <SUITE FILE_PATH="coverage/pycharm$Gravity.coverage" NAME="Gravity Coverage Results" MODIFIED="1550120415977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/algorithm$sum.coverage" NAME="sum Coverage Results" MODIFIED="1550475394979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D03" />
+    <SUITE FILE_PATH="coverage/algorithm$seq_nonorder.coverage" NAME="seq_nonorder Coverage Results" MODIFIED="1550471075218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D03" />
+    <SUITE FILE_PATH="coverage/algorithm$prac3.coverage" NAME="prac3 Coverage Results" MODIFIED="1550479879560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D03" />
     <SUITE FILE_PATH="coverage/pycharm$babygin.coverage" NAME="babygin Coverage Results" MODIFIED="1550133525050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pycharm$day01.coverage" NAME="day01 Coverage Results" MODIFIED="1550110428343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/algorithm$.coverage" NAME="작업순서 Coverage Results" MODIFIED="1550738674769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D06" />
+    <SUITE FILE_PATH="coverage/algorithm$4866.coverage" NAME="4866 Coverage Results" MODIFIED="1550717667289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D06" />
+    <SUITE FILE_PATH="coverage/algorithm$dfs.coverage" NAME="dfs Coverage Results" MODIFIED="1550738242293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D06" />
+    <SUITE FILE_PATH="coverage/algorithm$4871.coverage" NAME="4871 Coverage Results" MODIFIED="1550726622858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D06" />
+    <SUITE FILE_PATH="coverage/algorithm$4843.coverage" NAME="4843 Coverage Results" MODIFIED="1550556129826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D04" />
+    <SUITE FILE_PATH="coverage/pycharm$next_permutation.coverage" NAME="next_permutation Coverage Results" MODIFIED="1550128903086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/algorithm$4869.coverage" NAME="4869 Coverage Results" MODIFIED="1550727451917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D06" />
+    <SUITE FILE_PATH="coverage/algorithm$4837.coverage" NAME="4837 Coverage Results" MODIFIED="1550538874761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D04" />
+    <SUITE FILE_PATH="coverage/algorithm$4836.coverage" NAME="4836 Coverage Results" MODIFIED="1550546365569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D04" />
+    <SUITE FILE_PATH="coverage/pycharm$4828.coverage" NAME="4828 Coverage Results" MODIFIED="1550195825843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/algorithm$practice2.coverage" NAME="practice2 Coverage Results" MODIFIED="1550470061289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D03" />
     <SUITE FILE_PATH="coverage/algorithm$binary_Search.coverage" NAME="binary_Search Coverage Results" MODIFIED="1550471472670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D03" />
+    <SUITE FILE_PATH="coverage/pycharm$4831.coverage" NAME="4831 Coverage Results" MODIFIED="1550211336219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/algorithm$stair.coverage" NAME="stair Coverage Results" MODIFIED="1550642094713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D05" />
+    <SUITE FILE_PATH="coverage/pycharm$4834.coverage" NAME="4834 Coverage Results" MODIFIED="1550197077232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/algorithm$4839.coverage" NAME="4839 Coverage Results" MODIFIED="1550541246223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/D04" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/D06/작업순서.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            <state relative-caret-position="190">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/D06/4869.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/D06/4869.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -77,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/D06/작업순서.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
-              <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -143,17 +147,17 @@
         <option value="$PROJECT_DIR$/D06/4873.py" />
         <option value="$PROJECT_DIR$/D06/4869.txt" />
         <option value="$PROJECT_DIR$/D05/dfs.py" />
-        <option value="$PROJECT_DIR$/D06/4869.py" />
         <option value="$PROJECT_DIR$/D06/dfs.py" />
         <option value="$PROJECT_DIR$/D06/calc.py" />
         <option value="$PROJECT_DIR$/D06/작업순서.txt" />
         <option value="$PROJECT_DIR$/D06/작업순서.py" />
+        <option value="$PROJECT_DIR$/D06/4869.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
+    <option name="x" value="-9" />
+    <option name="width" value="975" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -161,7 +165,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,6 +181,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -205,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.작업순서">
+  <component name="RunManager" selected="Python.구간합">
     <configuration name="구간합" type="PythonConfigurationType" factoryName="Python">
       <module name="pycharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -220,28 +224,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/구간합.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="작업순서" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pycharm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/D06" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D06/작업순서.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -308,6 +290,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D06/4873.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="작업순서" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pycharm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/D06" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D06/작업순서.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -406,7 +410,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.작업순서" />
         <item itemvalue="Python.dfs" />
         <item itemvalue="Python.4869" />
         <item itemvalue="Python.4873" />
@@ -434,16 +437,18 @@
       <workItem from="1550709136743" duration="15000" />
       <workItem from="1550709153750" duration="47000" />
       <workItem from="1550709209353" duration="20766000" />
+      <workItem from="1550746333680" duration="3279000" />
+      <workItem from="1550751083943" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119626000" />
+    <option name="totallyTimeSpent" value="123504000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="709" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13539445" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14008097" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -495,21 +500,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/day01.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Gravity.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Bubble.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/4831.py</url>
           <line>21</line>
@@ -803,13 +793,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/python/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="309" selection-start-line="309" selection-end-line="309" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/python/Lib/codecs.py" />
     <entry file="file://$PROJECT_DIR$/D06/4871.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -824,13 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/D06/4866.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/D05/dfs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -840,20 +817,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/D06/dfs.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D06/4869.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D06/4869.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/D06/calc.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -886,17 +849,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/D06/작업순서.txt">
+    <entry file="file://$PROJECT_DIR$/D06/4866.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/D06/작업순서.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        <state relative-caret-position="190">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D06/4869.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D06/작업순서.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D06/4869.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>
