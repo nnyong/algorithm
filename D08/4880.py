@@ -15,10 +15,13 @@ n=6
 data=list(map(int,input().split()))
 print(data)
 
-for i in range(len(data)):
-
-    n//2
-
-def tournament(n):
+def tournament(a,b):
     global data
-    if
+    if a==1 or b==len(data)-1:
+        if data[a]
+        return
+    if data[a]
+
+    tournament(a,(a+b)//2)
+    tournament((a+b)//2+1,b)
+    return
