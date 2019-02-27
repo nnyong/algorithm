@@ -2,27 +2,27 @@
 import sys
 sys.stdin=open('5097.txt','r')
 
-def enQueue(item):
+def en(item):
     global rear
     rear+=1
-    queue[rear]=item
+    que[rear]=item
 
-def deQueue():
+def de():
     global front
     front+=1
-    return queue[front]
+    return que[front]
 
 T=int(input())
 for tc in range(1,T+1):
     n,m=map(int,input().split())
     data=list(map(int,input().split()))
-    queue = [0] * (len(data)+m)
+    que = [0] * (len(data)+m)
     front=rear=-1
     for i in range(n):
-        enQueue(data[i])
+        en(data[i])
 
     for i in range(m):
-        item=deQueue()
-        enQueue(item)
-    print(f'#{tc} {queue[front+1]}')
+        item=de()
+        en(item)
+    print(f'#{tc} {que[front+1]}')
 
