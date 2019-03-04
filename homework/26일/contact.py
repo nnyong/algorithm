@@ -3,7 +3,7 @@ sys.stdin=open('contact.txt','r')
 
 T=10
 for tc in range(1,T+1):
-    print(f'#{tc}')
+    print('# {}'.format(tc))
     cont=[[0]*101 for i in range(101)]
     n, begin=list(map(int,input().split()))
     print(n)
@@ -33,5 +33,6 @@ for tc in range(1,T+1):
                 if cont[y][x]==1:
                     rear+=1
                     que[rear]=x
+
 
     contact(begin)
