@@ -3,17 +3,12 @@ sys.stdin=open('회문2.txt','r')
 
 for tc in range(10):
     tc=int(input())
-    print('#{}'.format(tc))
-    # data=[]
-    # for i in range(100):
-    #     data[]
-
     data=[list(input()) for i in range(100)]
+    # print(data)
 
+    result=[]
     for m in range(2,100):
         center = m // 2
-        result = []
-
         for y in range(100):
             r_center = m // 2
             while r_center <= center + (100 - m):
@@ -32,11 +27,12 @@ for tc in range(10):
                     else:
                         break
                 r_center += 1
-            if cnt == center:
-                for i in range(m):
-                    result.append(data[y][a + 1])
-                    a += 1
-                break
+                l=[]
+                if cnt == center:
+                    for i in range(m):
+                        l.append(data[y][a + 1])
+                        a += 1
+                    result.append(l)
 
         for x in range(100):
             c_center = m // 2
@@ -56,10 +52,15 @@ for tc in range(10):
                     else:
                         break
                 c_center += 1
-            if cnt == center:
-                for i in range(m):
-                    result.append(data[a + 1][x])
-                    a += 1
-                break
+                l=[]
+                if cnt == center:
+                    for i in range(m):
+                        l.append(data[a+1][x])
+                        a += 1
+                    result.append(l)
 
-        print(result)
+    max_len = 1
+    for i in result:
+        if len(i) > max_len:
+            max_len = len(i)
+    print('#{} {}'.format(tc,max_len))
