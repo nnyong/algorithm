@@ -6,6 +6,8 @@ sys.stdin=open('dfs.txt','r')
 
 MyMap=[[0]*8 for i in range(8)]
 visited=[0]*8
+stack=[0]*8
+top=-1
 
 def push(x):
     global top
@@ -48,3 +50,4 @@ for i in range(howmany):
     MyMap[start][end]=1
     MyMap[end][start]=1
 
+DFS(1)
