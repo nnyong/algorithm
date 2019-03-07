@@ -1,7 +1,7 @@
 import sys
 sys.stdin=open('작업순서.txt','r')
 
-for tc in range(1,2):
+for tc in range(1,11):
     print('#{}'.format(tc))
     v, e = list(map(int, input().split()))
     data=list(map(int,input().split()))
