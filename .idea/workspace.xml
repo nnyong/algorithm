@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1d80c26-ae39-48a6-b911-4255eee5302d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pycharm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pycharm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/D14/단조.txt" beforeDir="false" afterPath="$PROJECT_DIR$/D14/단조.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/D14/정곤이의 단조증가.py" beforeDir="false" afterPath="$PROJECT_DIR$/D14/정곤이의 단조증가.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/21일/작업순서.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/21일/작업순서.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/21일/작업순서.txt" beforeDir="false" afterPath="$PROJECT_DIR$/homework/21일/작업순서.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,21 +66,17 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/D14/정곤이의 단조증가.py">
+        <entry file="file://$PROJECT_DIR$/homework/26일/contact.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="16" column="49" lean-forward="true" selection-end-line="22" selection-end-column="45" />
+            <state relative-caret-position="161">
+              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/D14/단조.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/homework/26일/contact.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -125,8 +118,6 @@
         <option value="$PROJECT_DIR$/D11/회문2.py" />
         <option value="$PROJECT_DIR$/D13/좀비.py" />
         <option value="$PROJECT_DIR$/D13/트리.txt" />
-        <option value="$PROJECT_DIR$/homework/21일/작업순서.txt" />
-        <option value="$PROJECT_DIR$/homework/21일/작업순서.py" />
         <option value="$PROJECT_DIR$/D13/이진힙.txt" />
         <option value="$PROJECT_DIR$/D13/이진힙.py" />
         <option value="$PROJECT_DIR$/D13/트리.py" />
@@ -152,6 +143,8 @@
         <option value="$PROJECT_DIR$/D14/정곤.py" />
         <option value="$PROJECT_DIR$/D14/단조.txt" />
         <option value="$PROJECT_DIR$/D14/정곤이의 단조증가.py" />
+        <option value="$PROJECT_DIR$/homework/21일/작업순서.py" />
+        <option value="$PROJECT_DIR$/homework/21일/작업순서.txt" />
       </list>
     </option>
   </component>
@@ -176,7 +169,13 @@
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="D14" type="462c0819:PsiDirectoryNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+              <item name="26일" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -210,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.정곤이의 단조증가">
+  <component name="RunManager" selected="Python.작업순서">
     <configuration name="정곤이의 단조증가" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pycharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -288,6 +287,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/구간합.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="작업순서" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pycharm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework/21일" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/21일/작업순서.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -769,9 +789,11 @@
       <item itemvalue="Python.구간합" />
       <item itemvalue="Python.파스칼의 삼각형" />
       <item itemvalue="Python.정곤이의 단조증가" />
+      <item itemvalue="Python.작업순서" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.작업순서" />
         <item itemvalue="Python.정곤이의 단조증가" />
         <item itemvalue="Python.파스칼의 삼각형" />
       </list>
@@ -811,15 +833,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="709" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19236884" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19236884" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.328125" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6302083" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39583334" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40104166" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5138889" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1020,6 +1041,11 @@
           <line>4</line>
           <option name="timeStamp" value="72" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/homework/21일/작업순서.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1029,12 +1055,35 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="node" />
+        <watch expression="visited" />
+        <watch expression="que" />
+        <watch expression="result" />
+        <watch expression="top" />
+        <watch expression="rear" />
+        <watch expression="x" language="Python" />
+        <watch expression="y" language="Python" />
+        <watch expression="myMap" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>y</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>x</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/D11/글자수.txt" />
-    <entry file="file://$PROJECT_DIR$/D11/kmp.py" />
-    <entry file="file://$PROJECT_DIR$/D11/bruteforce.py" />
-    <entry file="file://$PROJECT_DIR$/D11/글자수.py" />
     <entry file="file://$PROJECT_DIR$/D11/GNS.txt" />
     <entry file="file://$PROJECT_DIR$/D11/회문.py" />
     <entry file="file://$PROJECT_DIR$/D11/회문.txt" />
@@ -1055,20 +1104,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework/21일/작업순서.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework/21일/작업순서.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
@@ -1186,9 +1221,14 @@
     <entry file="file://$PROJECT_DIR$/D14/예산관리.py" />
     <entry file="file://$PROJECT_DIR$/D14/다솔이의다이아몬드장식.py" />
     <entry file="file://$PROJECT_DIR$/D14/사칙연산.py" />
-    <entry file="file://$PROJECT_DIR$/D14/파스칼의 삼각형.py" />
-    <entry file="file://$PROJECT_DIR$/D14/파스칼.txt" />
     <entry file="file://$PROJECT_DIR$/D14/정곤.py" />
+    <entry file="file://$PROJECT_DIR$/D14/정곤이의 단조증가.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/D14/단조.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -1196,10 +1236,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/D14/정곤이의 단조증가.py">
+    <entry file="file://$PROJECT_DIR$/D14/파스칼.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D14/파스칼의 삼각형.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="16" column="49" lean-forward="true" selection-end-line="22" selection-end-column="45" />
+        <state relative-caret-position="418">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework/21일/작업순서.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework/21일/작업순서.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework/20일/ladder비재귀.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework/20일/ladder.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework/26일/contact.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework/26일/contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>
