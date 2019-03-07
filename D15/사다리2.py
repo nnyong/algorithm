@@ -1,7 +1,7 @@
 import sys
 sys.stdin=open('사다리2.txt','r')
 
-for test in range(1,2):
+for test in range(10):
     tc=int(input())
     ladder=[list(map(int,input().split())) for i in range(100)]
     # print(ladder)
@@ -13,7 +13,7 @@ for test in range(1,2):
         temp = x
         visited = [[0] * 100 for i in range(100)]
         if ladder[y][x]==1:
-            while y<9:
+            while y<99:
                 for dir in range(3):
                     if y+dy[dir]<0 or x+dx[dir]<0 or y+dy[dir]>99 or x+dx[dir]>99:
                         continue
@@ -25,10 +25,10 @@ for test in range(1,2):
                         break
         x=temp+1
         y=0
-    print(distance)
-    max_distance=0
+    # print(distance)
+    min_distance=distance[0]
     for i in range(len(distance)):
-        if distance[i]>=max_distance:
-            max_distance=distance[i]
+        if distance[i]<=min_distance and distance[i]!=0:
+            min_distance=distance[i]
             result=i
-    print(result)
+    print('#{} {}'.format(tc,result))
