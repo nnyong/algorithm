@@ -34,5 +34,4 @@ for tc in range(1,T+1):
                     rear+=1
                     que[rear]=x
 
-
     contact(begin)
