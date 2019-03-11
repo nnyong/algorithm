@@ -249,7 +249,46 @@ homework
 - 작업순서
 
   ```python
+  import sys
+  sys.stdin=open('작업순서.txt','r')
   
+  for tc in range(1,11):
+      print('#{}'.format(tc))
+      v, e = list(map(int, input().split()))
+      data=list(map(int,input().split()))
+      # print(data)
+      node = [0] * (v + 1)
+      myMap=[[0]*(v+1) for i in range(v+1)]
+      for i in range(len(data)//2):
+          y=data[i*2]
+          x=data[i*2+1]
+          node[x]+=1
+          myMap[y][x]=1
+      # print(myMap)
+      visited=[0]*(v+1)
+      que=[0]*(v+1)
+      top=rear=-1
+      # print(node)
+  
+      result=[]
+      while node!=[0]*(v+1):
+          for i in range(1, v + 1):
+              if node[i] == 0 and not visited[i]:
+                  rear += 1
+                  que[rear] = i
+                  break
+          while top!=rear:
+              top += 1
+              y = que[top]
+              result.append(y)
+              visited[y]=1
+              for x in range(v+1):
+                  if myMap[y][x]==1 and not visited[x]:
+                      if node[x]<2:
+                          rear += 1
+                          que[rear] = x
+                      node[x]-=1
+      print(result)
   ```
 
 - 종이붙이기
@@ -518,7 +557,43 @@ homework
 * contact
 
   ```python
+  import sys
+  sys.stdin=open('contact.txt','r')
   
+  T=10
+  for tc in range(1,T+1):
+      print('# {}'.format(tc))
+      cont=[[0]*101 for i in range(101)]
+      n, begin=list(map(int,input().split()))
+      print(n)
+      print(begin)
+      data=list(map(int,input().split()))
+      print(data)
+      for i in range(n//2):
+          start=data[i*2]
+          end=data[i*2+1]
+          cont[start][end]=1
+      for j in cont:
+          print(j)
+  
+      que=[0]*101
+      visited=[0]*101
+      top=-1
+      rear=-1
+      def contact(begin):
+          global top,rear,cont
+          rear+=1
+          que[rear]=begin
+          visited[begin]=True
+          while True:
+              top+=1
+              y=que[top]
+              for x in range(101):
+                  if cont[y][x]==1:
+                      rear+=1
+                      que[rear]=x
+  
+      contact(begin)
   ```
 
   
