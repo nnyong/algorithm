@@ -1,5 +1,4 @@
-n=[1,2,3,4,5,6,7,8,9]
-
+n=41
 class Node:
     def __init__(self,data,link=None):
         self.data=data
@@ -26,16 +25,23 @@ def delete(node):
 head=None
 tail=None
 
-for i in range(len(n)):
-    Enqueue(n[i])
-    if i==len(n)-1:
+for i in range(1,n+1):
+    Enqueue(i)
+    if i==n:
         tail.link=head
 
+cnt=n
 p=head
 while p:
-    print(p.data)
+    p=p.link
+    delete(p)
+    cnt-=1
+    if cnt==2:
+        p.link.link=None
+        break
     p=p.link
 
-p=head
+
 while p:
+    print(p.data)
     p=p.link
