@@ -6,6 +6,24 @@ for tc in range(1,T+1):
     data,cnt=map(int,input().split())
     pan=[int(s) for s in str(data)]
 
+    print(pan)
+    rank=[len(pan)]*len(pan)
+    print(rank)
+    for p in range(len(pan)):
+        for p2 in range(len(pan)):
+            if pan[p]>pan[p2]:
+                rank[p]-=1
+    print(rank)
+    dict={}
+    for r in rank:
+        if r in dict:
+            dict[r]+=1
+        else:
+            dict[r]=1
+    print(dict)
+    for d in dict:
+
+
     def change(pan,count=0):
         global max_value
         # if pan in value_list:
