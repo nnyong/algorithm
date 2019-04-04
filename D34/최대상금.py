@@ -1,0 +1,34 @@
+import sys,copy
+sys.stdin=open('최대상금','r')
+
+T=int(input())
+for tc in range(1,T+1):
+    data,cnt=map(int,input().split())
+    pan=[int(s) for s in str(data)]
+
+    def change(pan,count=0):
+        global max_value
+        # if pan in value_list:
+        #     return
+        # value_list.append(pan[:])
+        if count==cnt:
+            value = 0
+            for k in range(len(pan)):
+                value += pan[k] * (10 ** (len(pan) - k - 1))
+            # print(value)
+            if value>max_value:
+                max_value=value
+            return
+
+        for i in range(len(pan)):
+            for j in range(i+1,len(pan)):
+                if pan[i]==pan[j]:
+                    continue
+                pan[i],pan[j]=pan[j],pan[i]
+                change(pan,count+1)
+                pan[i], pan[j] = pan[j], pan[i]
+        return
+    value_list=[]
+    max_value=0
+    change(pan)
+    print('#{} {}'.format(tc,max_value))
