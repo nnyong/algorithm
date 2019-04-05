@@ -2,6 +2,20 @@ import sys,time
 sys.stdin=open('공통조상','r')
 stime=time.time()
 
+def child(begin):
+    global front, rear, cnt
+    rear += 1
+    queue[rear] = begin
+    while front != rear:
+        front += 1
+        start = queue[front]
+        for i in range(0, e * 2, 2):
+            if data[i] == start:
+                cnt += 1
+                rear += 1
+                queue[rear] = data[i + 1]
+    return
+
 T=int(input())
 for tc in range(1,T+1):
     v,e,node1,node2=list(map(int,input().split()))
@@ -21,19 +35,6 @@ for tc in range(1,T+1):
     common = n1
 
     cnt=1
-    def child(begin):
-        global front,rear,cnt
-        rear+=1
-        queue[rear]=begin
-        while front!=rear:
-            front+=1
-            start=queue[front]
-            for i in range(0, e * 2, 2):
-                if data[i]==start:
-                    cnt+=1
-                    rear+=1
-                    queue[rear]=data[i+1]
-        return
 
     front=rear=-1
     queue=[0]*10000
